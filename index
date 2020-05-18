@@ -1,0 +1,150 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://nowtv--stage.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+<input type=hidden name="orgid" value="00D3G0000008aPi">
+<input type=hidden name="retURL" value="http://">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="dl-nowtv-crmteam@bskyb.com">                                     -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+
+Customer Case Service Type:<select  id="00N2400000Idf82" name="00N2400000Idf82" title="Customer Case Service Type"><option value="">--None--</option><option value="Broadband &amp; Calls">Broadband &amp; Calls</option>
+<option value="TV">TV</option>
+</select><br>
+
+Query Topic:<select  id="00NG0000009YcId" name="00NG0000009YcId" title="Query Topic"><option value="">--None--</option><option value="Abandoned Chat">Abandoned Chat</option>
+<option value="About Entertainment">About Entertainment</option>
+<option value="About Introduce a Friend">About Introduce a Friend</option>
+<option value="About joining us">About joining us</option>
+<option value="About Movies">About Movies</option>
+<option value="About NOWTV Box">About NOWTV Box</option>
+<option value="About Sports">About Sports</option>
+<option value="About supported devices">About supported devices</option>
+<option value="Activating my box">Activating my box</option>
+<option value="App unavailable">App unavailable</option>
+<option value="Billing date query">Billing date query</option>
+<option value="Box not delivered">Box not delivered</option>
+<option value="Buffering">Buffering</option>
+<option value="Cancelled still being charged">Cancelled still being charged</option>
+<option value="Card refused">Card refused</option>
+<option value="Case not resolved">Case not resolved</option>
+<option value="Change My Name">Change My Name</option>
+<option value="Change of card">Change of card</option>
+<option value="Change of mind">Change of mind</option>
+<option value="Competition query">Competition query</option>
+<option value="Confirm cancellation">Confirm cancellation</option>
+<option value="Contact preferences">Contact preferences</option>
+<option value="Content Issue">Content Issue</option>
+<option value="Content Suggestion">Content Suggestion</option>
+<option value="Continuous loading">Continuous loading</option>
+<option value="Created in Error">Created in Error</option>
+<option value="Customer Lives Abroad">Customer Lives Abroad</option>
+<option value="Deactivate/reactivate account">Deactivate/reactivate account</option>
+<option value="Deactivated by Sky">Deactivated by Sky</option>
+<option value="Device Activation">Device Activation</option>
+<option value="Device Detection">Device Detection</option>
+<option value="Device limit/Changes query">Device limit/Changes query</option>
+<option value="Device Suggestion">Device Suggestion</option>
+<option value="Dissatisfied with resolution">Dissatisfied with resolution</option>
+<option value="Downloading app">Downloading app</option>
+<option value="Duplicate">Duplicate</option>
+<option value="Duplicate account">Duplicate account</option>
+<option value="Eligibility query">Eligibility query</option>
+<option value="Email address">Email address</option>
+<option value="Email inaccessible">Email inaccessible</option>
+<option value="Entitlement Issue">Entitlement Issue</option>
+<option value="Error code received">Error code received</option>
+<option value="Error Message Received">Error Message Received</option>
+<option value="Errors during sign-up">Errors during sign-up</option>
+<option value="Faulty asset">Faulty asset</option>
+<option value="Faulty box">Faulty box</option>
+<option value="Faulty PSU">Faulty PSU</option>
+<option value="Faulty remote">Faulty remote</option>
+<option value="Feature Suggestion">Feature Suggestion</option>
+<option value="Forgotten details">Forgotten details</option>
+<option value="Fraudulently charged">Fraudulently charged</option>
+<option value="Fulfillment query">Fulfillment query</option>
+<option value="Gift Card">Gift Card</option>
+<option value="How to apply vouchers">How to apply vouchers</option>
+<option value="How to cancel">How to cancel</option>
+<option value="Invalid voucher">Invalid voucher</option>
+<option value="Lip sync">Lip sync</option>
+<option value="Live TV unavailable">Live TV unavailable</option>
+<option value="Lost asset">Lost asset</option>
+<option value="Marketing opt out/in">Marketing opt out/in</option>
+<option value="No sound">No sound</option>
+<option value="Not enough supported devices">Not enough supported devices</option>
+<option value="NOW TV Help Email">NOW TV Help Email</option>
+<option value="Offer incorrect">Offer incorrect</option>
+<option value="Offer not received">Offer not received</option>
+<option value="Ordered in error">Ordered in error</option>
+<option value="Order enquiry">Order enquiry</option>
+<option value="Outside UK">Outside UK</option>
+<option value="Parental PIN">Parental PIN</option>
+<option value="Payment PIN">Payment PIN</option>
+<option value="Poor quality playout">Poor quality playout</option>
+<option value="Positive Feedback">Positive Feedback</option>
+<option value="Price Change">Price Change</option>
+<option value="Problem placing order">Problem placing order</option>
+<option value="Refund not applied">Refund not applied</option>
+<option value="Rename devices">Rename devices</option>
+<option value="Renew subscription">Renew subscription</option>
+<option value="Replacement Accessory">Replacement Accessory</option>
+<option value="Return to sender">Return to sender</option>
+<option value="Service Suggestion">Service Suggestion</option>
+<option value="Service unavailable">Service unavailable</option>
+<option value="Sign-in Issue">Sign-in Issue</option>
+<option value="Silent chat">Silent chat</option>
+<option value="Silverlight Troubleshooting">Silverlight Troubleshooting</option>
+<option value="Sky Broadband Voucher">Sky Broadband Voucher</option>
+<option value="Sky Sports News App">Sky Sports News App</option>
+<option value="Subtitles/Audio description">Subtitles/Audio description</option>
+<option value="Testing">Testing</option>
+<option value="Unable to cancel">Unable to cancel</option>
+<option value="Unable to refer">Unable to refer</option>
+<option value="Unable to reset password">Unable to reset password</option>
+<option value="Unsupported cards">Unsupported cards</option>
+<option value="Unsupported Device-Android">Unsupported Device-Android</option>
+<option value="Unsupported Device-Apple">Unsupported Device-Apple</option>
+<option value="Unsupported Device - Chromecast">Unsupported Device - Chromecast</option>
+<option value="Unsupported set-up">Unsupported set-up</option>
+<option value="Unsure if offer applied">Unsure if offer applied</option>
+<option value="Voucher not received">Voucher not received</option>
+<option value="Wrong category">Wrong category</option>
+<option value="Wrong cover art">Wrong cover art</option>
+<option value="Wrongly charged">Wrongly charged</option>
+<option value="Wrong product detail">Wrong product detail</option>
+<option value="Junk Email">Junk Email</option>
+<option value="Other complaint">Other complaint</option>
+<option value="Stuttering audio">Stuttering audio</option>
+<option value="Other">Other</option>
+</select><br>
+
+<label for="description">Description</label><textarea name="description"></textarea><br>
+
+<input type="hidden"  id="external" name="external" value="1" /><br>
+
+<input type="submit" name="submit">
+
+</form>
